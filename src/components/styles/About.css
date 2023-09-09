@@ -1,0 +1,49 @@
+.about {
+  font-family: "poppins";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120vh;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+.about .content {
+  font-weight: 600;
+  margin-bottom: 75px;
+}
+.about .content h1 {
+  text-align: center;
+}
+.about .content .name {
+  color: turquoise;
+  margin-bottom: 30px;
+}
+.about .content .whatami {
+  justify-content: center;
+  display: flex;
+  font-size: 1.75rem;
+  color: whitesmoke;
+}
+.about .content .whatami .Typewriter {
+  margin-left: 5px;
+}
+
+@media (max-width: 750px) {
+  .about {
+    height: 130vh;
+    justify-content: flex-start;
+    margin-top: 50px;
+  }
+  .about .content {
+    width: 80% !important;
+    margin-bottom: 25px;
+  }
+  .about .content .whatami {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 450px) {
+  .whatami {
+    font-size: 1.25rem !important;
+  }
+}/*# sourceMappingURL=About.css.map */

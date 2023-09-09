@@ -1,0 +1,32 @@
+.contact-container {
+  background-color: #6e07f3;
+  color: whitesmoke;
+  padding: 5vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact-container h1 {
+  font-size: 2rem;
+}
+.contact-container svg {
+  padding: 7.5px;
+  width: 40px;
+  height: 40px;
+  margin: 30px;
+}
+.contact-container .contact-socials {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+}
+.contact-container .contact-socials svg {
+  border: solid whitesmoke 1px;
+  border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+  .contact-container h1 {
+    font-size: 1.5rem;
+  }
+}/*# sourceMappingURL=Contact.css.map */

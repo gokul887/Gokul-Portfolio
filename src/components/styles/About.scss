@@ -1,0 +1,51 @@
+.about {
+  font-family: "poppins";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 120vh;
+  justify-content: center;
+  padding-bottom: 100px;
+  .content {
+    font-weight: 600;
+    margin-bottom: 75px;
+    h1 {
+      text-align: center;
+    }
+    .name {
+      // color: rgb(199, 88, 247);
+      color: turquoise;
+      margin-bottom: 30px;
+    }
+    .whatami {
+      justify-content: center;
+      display: flex;
+      font-size: 1.75rem;
+      color: whitesmoke;
+      .Typewriter {
+        margin-left: 5px;
+      }
+    }
+  }
+}
+
+@media (max-width: 750px) {
+  .about {
+    height: 130vh;
+    justify-content: flex-start;
+    margin-top: 50px;
+    .content {
+      width: 80% !important;
+      margin-bottom: 25px;
+      .whatami {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .whatami {
+    font-size: 1.25rem !important;
+  }
+}
