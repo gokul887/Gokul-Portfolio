@@ -1,10 +1,17 @@
 import React from "react";
 import "./styles/Skills.css";
 import { ReactComponent as ServerSvg } from "../img/server.svg";
-import { ReactComponent as DSSvg } from "../img/ds.svg";
+import { ReactComponent as SESvg } from "../img/se.svg";
 import { ReactComponent as FrontendSvg } from "../img/frontend.svg";
 
 const skillsCards = [
+  {
+    classname: "se-card",
+    img: <SESvg />,
+    title: "Software Engineer",
+    desc: "I am passionate about crafting innovative solutions.",
+    tools: "Python, Java, C++",
+  },
   {
     classname: "frontend-card",
     img: <FrontendSvg />,
@@ -18,14 +25,6 @@ const skillsCards = [
     title: "Backend Development",
     desc: "I like crafting the magic that powers applications.",
     tools: "Express, NodeJS, Java, Flask, Django, MongoDB, Firebase",
-  },
-  {
-    classname: "ds-card",
-    img: <DSSvg />,
-    title: "Data Science",
-    desc: "I like exploring insights and patterns with data using code.",
-    tools:
-      "Python, Numpy, Pandas, Seaborn, MatplotLib, SKLearn, Scipy, Tensorflow",
   },
 ];
 const Skills = () => {

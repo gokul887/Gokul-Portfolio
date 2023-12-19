@@ -4,9 +4,9 @@ import { ReactComponent as Avatar } from "../img/avataaars.svg";
 import Typewriter from "typewriter-effect";
 
 const whatAmI = [
+  "I am a Software Engineer",
   "I am a Frontend Developer",
   "I am a Backend Developer",
-  "I am a Data Scientist",
 ];
 const About = () => {
   return (
