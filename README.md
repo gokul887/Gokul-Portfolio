@@ -13,13 +13,13 @@ Experience: Details about my professional experience and previous roles.
 
 Contact: How to reach out to me for opportunities or collaboration.
 
-I'm open to new opportunities and collaborations. Feel free to reach out to me via:
 
-## Contact
+
+### I'm open to new opportunities and collaborations. Feel free to reach out to me via:
 Email: sivadasa@ualberta.ca
 
-LinkedIn: [](https://www.linkedin.com/in/gokul-sa/)
+LinkedIn: [https://www.linkedin.com/in/gokul-sa/](https://www.linkedin.com/in/gokul-sa/)
 
-GitHub: [Link to your GitHub profile](https://github.com/gokul887)
+GitHub: [https://github.com/gokul887](https://github.com/gokul887)
 
 Thank you for visiting my portfolio! I'm excited about the possibilities and looking forward to connecting with you.
